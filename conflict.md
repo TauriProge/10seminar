@@ -1,3 +1,3 @@
 Tere tulemast  
-See fail võib tekitada konflikti  
+See fail tekitab äkki konflikti
 Oi ei
