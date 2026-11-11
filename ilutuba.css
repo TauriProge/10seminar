@@ -1,0 +1,51 @@
+button {
+    background: none;
+    border: 0;
+    padding: 0;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+}
+body {
+    background-image: url("tapeet.jpg");
+}
+* {
+    font-family: 'Lucida Sans';
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header {
+    grid-column: 1 / -1;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.flex:first-of-type {
+    grid-column: 1;
+    align-items: flex-start;
+}
+
+.flex:last-of-type {
+    grid-column: 2;
+    align-items: flex-end;
+    text-align: center;
+}
+
+.flex img,
+.flex iframe {
+    max-width: 100%;
+    box-sizing: border-box;
+}
